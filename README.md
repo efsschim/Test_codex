@@ -37,3 +37,10 @@ The UI behaviour is covered by an instrumentation test located at
 `app/src/androidTest/java/com/example/sampleapp/MainActivityTest.kt`. Execute it from
 Android Studio or via `./gradlew connectedAndroidTest` while an emulator or device is
 attached.
+
+## Version history
+
+- Initial project setup with a ViewBinding-driven greeting screen and supporting
+  Gradle configuration.
+- Added an Espresso instrumentation test and updated documentation describing how to
+  run it.
